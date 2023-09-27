@@ -57,15 +57,26 @@ Set up s3 bucket that will store all the video resources. Then, upload video fil
 }
 
 ```
+- Upload video file(s).
+- .
+![Screenshot (259)](https://github.com/OK-CodeClinic/Build_a_Video_Streaming_App_on_AWS_Cloud/assets/100064229/c05a3fca-86fd-4c22-b46f-d9ca8f436793)
+
+
 
 ## Step 4: Configure CloudFront
 - First create Origin Access
-- Create distribution 
+  ![Screenshot (258)](https://github.com/OK-CodeClinic/Build_a_Video_Streaming_App_on_AWS_Cloud/assets/100064229/e4d80e46-bc0e-4c5d-bbf3-af2f202e4982)
+
+- Create distribution
+  ![Screenshot (256)](https://github.com/OK-CodeClinic/Build_a_Video_Streaming_App_on_AWS_Cloud/assets/100064229/ad007ebd-e9d6-43f5-9609-a220f67ef691)
+
 - In the "Origin Settings," select your S3 bucket as the Origin Domain Name
 - Redirect HTTP to HTTPS;  to enable encryption in flight for users while streaming
 - Leave other settings as default or configure them as needed.
 
 After creating the CloudFront distribution, you'll be provided with a CloudFront Domain Name. This is the URL where your React app will be accessible once deployed.
+ ![Screenshot (257)](https://github.com/OK-CodeClinic/Build_a_Video_Streaming_App_on_AWS_Cloud/assets/100064229/90307883-faaa-44bc-8ef3-26fd75388624)
+
 
 ## Step 5: Update react.js video source.
 - The video source will be the cloudfront distribution url and the videom file key in the s3 bucket, the url should be like this ; https://d2xpign8lqkkjx.cloudfront.net/SuperbVideo.mp4
