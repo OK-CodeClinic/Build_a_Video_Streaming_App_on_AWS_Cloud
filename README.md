@@ -24,9 +24,9 @@ npm start
 
 ## Step 3: Set Up an S3 Bucket
 Set up s3 bucket that will store all the video resources.
-- enable versioning
-- enable buckey key
-- update the bucket policy to this
+- Enable versioning
+- Enable buckey key
+- Update the bucket policy to this
 ```
 {
     "Version": "2008-10-17",
@@ -55,16 +55,16 @@ Set up s3 bucket that will store all the video resources.
 - First create Origin Access
 - Create distribution 
 - In the "Origin Settings," select your S3 bucket as the Origin Domain Name
-- Redirect HTTP to HTTPS;  to create an encryption in flight for user streaming
+- Redirect HTTP to HTTPS;  to enable encryption in flight for users while streaming
 - Leave other settings as default or configure them as needed.
 
 After creating the CloudFront distribution, you'll be provided with a CloudFront Domain Name. This is the URL where your React app will be accessible once deployed.
 
-## Step 5: update react.js video source.
+## Step 5: Update react.js video source.
 - The video source will be the cloudfront distribution url and the videom file key in the s3 bucket, the url should be luike this ; https://d2xpign8lqkkjx.cloudfront.net/SuperbVideo.mp4
 
 
-## Step 5: Set Up ec2 Instance where React.js app will be running
+## Step 5: Set Up Ec2 Instance where React.js app will be running
 - Install all dependencies to run your app
 - clone your app on the machine
 - start the react application using;
@@ -73,6 +73,8 @@ After creating the CloudFront distribution, you'll be provided with a CloudFront
 
  ## OUTCOME
 
+
+This complete how i built and deployed a simple React.js Application on AWS using EC2, S3, and CloudFront. This is a  reliable cloud-hosted web application.
 
  ### Author
 Kehinde Omokungbe
