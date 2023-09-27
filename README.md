@@ -23,7 +23,7 @@ npm start
  ```npm run build```
 
 ## Step 3: Set Up an S3 Bucket
-Set up s3 bucket that will store all the video resources.
+Set up s3 bucket that will store all the video resources. Then, upload video files
 - Enable versioning
 - Enable buckey key
 - Update the bucket policy to this
