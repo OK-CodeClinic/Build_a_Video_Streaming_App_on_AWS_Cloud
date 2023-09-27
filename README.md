@@ -61,7 +61,7 @@ Set up s3 bucket that will store all the video resources. Then, upload video fil
 After creating the CloudFront distribution, you'll be provided with a CloudFront Domain Name. This is the URL where your React app will be accessible once deployed.
 
 ## Step 5: Update react.js video source.
-- The video source will be the cloudfront distribution url and the videom file key in the s3 bucket, the url should be luike this ; https://d2xpign8lqkkjx.cloudfront.net/SuperbVideo.mp4
+- The video source will be the cloudfront distribution url and the videom file key in the s3 bucket, the url should be like this ; https://d2xpign8lqkkjx.cloudfront.net/SuperbVideo.mp4
 
 
 ## Step 5: Set Up Ec2 Instance where React.js app will be running
@@ -74,7 +74,7 @@ After creating the CloudFront distribution, you'll be provided with a CloudFront
  ## OUTCOME
 
 
-This complete how i built and deployed a simple React.js Application on AWS using EC2, S3, and CloudFront. This is a  reliable cloud-hosted web application. this is the logic behind all streaming platforms includingn Neflix, Youtube, etc. Although, they might have some has significant differences based on their business models, content delivery, and technical implementations, but all logic remains the same.
+This complete how i built and deployed a simple React.js Application on AWS using EC2, S3, and CloudFront. This is a  reliable cloud-hosted web application. This is the logic behind all streaming platforms includingn Neflix, Youtube, etc. Although, they might have some has significant differences based on their business models, content delivery, and technical implementations, but all logic remains the same.
 
  ### Author
 Kehinde Omokungbe
