@@ -2,6 +2,13 @@
 
 This github repo shows building a simple React.js application and hosting it on Amazon Web Services (AWS) using EC2, S3, and CloudFront. I'll guide you through the process of building and deploying a React app on AWS.
 
+![react](https://github.com/OK-CodeClinic/Build_a_Video_Streaming_App_on_AWS_Cloud/assets/100064229/71745397-85af-4f5a-b58f-4a3c5edffe3a)
+#### how does this works?
+- The user will access the public url directing to the route53, this will give its access to access the IP address of the Ec2 Instance cointaing the react.Js application.
+- The React app will request for the video to be streamed by the user from the cloudfront
+- The cloudfront will then access the amazon s3 to pick up the particular video that was reqyuested by the user.
+- s3 will then giv access to the user to stream the video. Live!
+
 ## Prerequisites
 Before you get started, make sure you have the following:
 - An AWS account: Sign up for an AWS account if you don't have one already.
