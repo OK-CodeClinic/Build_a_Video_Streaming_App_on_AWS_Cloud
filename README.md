@@ -74,7 +74,7 @@ After creating the CloudFront distribution, you'll be provided with a CloudFront
  ## OUTCOME
 
 
-This complete how i built and deployed a simple React.js Application on AWS using EC2, S3, and CloudFront. This is a  reliable cloud-hosted web application.
+This complete how i built and deployed a simple React.js Application on AWS using EC2, S3, and CloudFront. This is a  reliable cloud-hosted web application. this is the logic behind all streaming platforms includingn Neflix, Youtube, etc. Although, they might have some has significant differences based on their business models, content delivery, and technical implementations, but all logic remains the same.
 
  ### Author
 Kehinde Omokungbe
