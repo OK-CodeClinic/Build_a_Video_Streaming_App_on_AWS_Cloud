@@ -90,6 +90,8 @@ After creating the CloudFront distribution, you'll be provided with a CloudFront
 
 
  ## OUTCOME
+ App is running smoothly with the video content streaming live via the ip address of the ec2 instance that can be connected to Route53 for a custom domain name.
+ ![Screenshot (260)](https://github.com/OK-CodeClinic/Build_a_Video_Streaming_App_on_AWS_Cloud/assets/100064229/9b18b3e4-19c7-41c8-a35f-87e6c0743910)
 
 
 This complete how i built and deployed a simple React.js Application on AWS using EC2, S3, and CloudFront. This is a  reliable cloud-hosted web application. This is the logic behind all streaming platforms includingn Neflix, Youtube, etc. Although, they might have some has significant differences based on their business models, content delivery, and technical implementations, but all logic remains the same.
